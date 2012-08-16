@@ -1,8 +1,10 @@
 <div class="page-header">
-  <h1>All of the Statuses</h1>
+  <h1>All Statuses</h1>
 </div>
 
+<br>
 <%= link_to "Post a New Status", new_status_path, class: "btn btn-success" %>
+
 
 <% @statuses.each do |status| %>
 <div class="status">
